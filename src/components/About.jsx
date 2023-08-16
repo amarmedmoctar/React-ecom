@@ -1,10 +1,10 @@
 import React from "react";
-import { Container } from "react-bootstrap";
+
 
 function About() {
   return (
-    <Container className="my-5">
-      <h1 className="text-center">About Louis Vuitton</h1>
+    <div className="container my-5">
+      <h1 className="text-center">Louis Vuitton</h1>
       <p className="text-muted text-center">
         Louis Vuitton, a renowned luxury fashion brand, was founded in 1854 by
         Louis Vuitton. It is known for its exquisite craftsmanship and
@@ -26,7 +26,7 @@ function About() {
         Join us on a journey of elegance, sophistication, and artistry as we
         continue to redefine the standards of luxury fashion.
       </p>
-    </Container>
+    </div>
   );
 }
 
